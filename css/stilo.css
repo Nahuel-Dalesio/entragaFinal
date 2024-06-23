@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.barraInicio{
+  display: Flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.boton{
+  background-color:black;
+  color:white;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  border: white solid 3px;
+  border-radius: 10px;
+}
+.boton:hover{
+  opacity: 90%;
+  color: rgb(198, 169, 6);
+  border: solid rgb(198, 169, 6) 3px;
+}
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#btnCrear{
+  cursor: pointer;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  margin: 10px;
+  padding: 6px;
+  border-radius: 20px;
+}
+.nav{
+  background-color: gray;
+}
+.barra{
+  font-size: large;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(83, 79, 79);
+}
+.barraItems{
+  list-style: none;
+  
+}
+.barraLinks{ 
+  color:white;
+  text-decoration: none;
+  margin: 2px;
+  padding:8px;
+}
+.barraItems :hover{
+  background: black;
+  border-radius: 10px;
+}
+h5{
+  text-align:center;
+  margin: 8px;
+  padding: 4px;
+}
+.seccion1 img{
+  padding: 1rem;
+  width: 600px;
+  height: 600px;
+  
+}
+.productos {
+  padding: 20px;
+}
+.seccion1{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: aliceblue;
+  
+}
+.contenedorProducto{
+  padding: 10px;
+  
+}
+#productos{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.agregar-carrito{
+  font-size: x-large;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#contenidoCarrito{
+  margin: 10px;
+  padding: 30px 0 0 0;
+  color:white;
+}
+.agregar-carrito:hover{
+  opacity: 90%;
+  color: rgb(198, 169, 6);
+}
+.contenedorCarrito{
+  display: none;
+  border-radius: 0 15px 15px 0;
+  border: outset 3px black;
+}
+.mostrar{
+  display: block;
+  position:fixed;
+  z-index: 0;
+  top: 0;
+  width: 35%;
+  height: 100%;
+  overflow: auto;
+  background-color:white;
+  transition: margin-right 4s;
+}
+.eliminar-carrito{
+  font-weight: 400;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+}
+.card-carrito{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 2px 0 2px;
+  border: 3px solid #222;
+  border-radius: 10px;
+}
+.card-carrito p{
+  text-align: center;
+  padding: 1rem;
+}
+h2{
+  text-align: center;
+  padding: 2rem;
+}
+.card-center{
+  height: 80%;
+}
+.pTotal{
+  text-align: center;
+  padding: 2rem;
+  font-size: x-large;
+}
+.pTota{
+  text-align: center;
+  padding: 2rem;
+  font-size: xx-large;
+}
+.btn-comprar{
+  width: 90%;
+  margin: 1rem;
+}
